@@ -1,0 +1,81 @@
+{
+  "result": {
+    "data": {
+      "heroes": [
+        {
+          "id": 1,
+          "name": "npc_dota_hero_antimage",
+          "name_loc": "Anti-Mage",
+          "bio_loc": "Монахи Турстаркури наблюдали за неровными долинами, раскинувшимися под их горным монастырем...",
+          "hype_loc": "Если Anti-Mage наберёт полную силу, мало кто сможет его остановить.",
+          "facets": [
+            {
+              "color": 4,
+              "title_loc": "Magebane's Mirror",
+              "description_loc": "Если отразить заклинание с помощью Counterspell, оно немедленно сожжёт обидчику ману.",
+              "name": "antimage_magebanes_mirror"
+            }
+          ],
+          "str_base": 21,
+          "str_gain": 1.6,
+          "agi_base": 24,
+          "agi_gain": 2.8,
+          "int_base": 12,
+          "int_gain": 1.8,
+          "primary_attr": 1,
+          "complexity": 1,
+          "damage_min": 53,
+          "damage_max": 57,
+          "attack_rate": 1.4,
+          "attack_range": 150,
+          "armor": 5,
+          "magic_resistance": 25,
+          "movement_speed": 310,
+          "abilities": [
+            {
+              "id": 5003,
+              "name": "antimage_mana_break",
+              "name_loc": "Mana Break",
+              "desc_loc": "Каждая атака сжигает ману цели и наносит ей урон.",
+              "type": 0,
+              "max_level": 4,
+              "special_values": [
+                {
+                  "name": "mana_per_hit",
+                  "values_float": [28, 40, 52, 64],
+                  "heading_loc": "Сжигаемая мана за атаку"
+                },
+                {
+                  "name": "damage_per_mana",
+                  "values_float": [0.6, 0.6, 0.6, 0.6],
+                  "heading_loc": "Урон за единицу сожжённой маны"
+                }
+              ]
+            },
+            {
+              "id": 5004,
+              "name": "antimage_blink",
+              "name_loc": "Blink",
+              "desc_loc": "Перемещение на короткую дистанцию.",
+              "type": 0,
+              "max_level": 4,
+              "special_values": [
+                {
+                  "name": "blink_range",
+                  "values_float": [925, 1000, 1075, 1150],
+                  "heading_loc": "Дальность прыжка"
+                },
+                {
+                  "name": "cooldown",
+                  "values_float": [16, 14, 12, 10],
+                  "heading_loc": "Перезарядка"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "status": 1
+  }
+}

@@ -1,0 +1,43 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+.venv.bak/
+.dist/
+build/
+.cache/
+.ipynb_checkpoints/
+.vscode/
+/docs
+/src
+/tests
+
+# Тяжёлые файлы моделей — скачиваются отдельно
+models/
+
+# ChromaDB — генерируется из notebooks
+data/chromadb/
+
+# Сырые данные Valve (большой дамп) — только примеры в data/examples/
+data/raw/
+
+# splits — промежуточные файлы, не нужны для воспроизведения
+data/splits/
+
+# Секреты
+.env
+
+# Черновики и бэкапы
+*.bak
+
+# Предобработка данных. Намеренно не включил, чтобы не смещать фокус на чистку и структуру. 
+data_preprocessing.ipynb
+enrich_items.py
+scripts/
+
+# Рабочие заметки и черновики
+test.ipynb

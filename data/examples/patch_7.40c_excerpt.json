@@ -1,0 +1,71 @@
+{
+  "patch_number": "7.40c",
+  "patch_name": "7.40c",
+  "patch_timestamp": 1768982400,
+  "items": [
+    {
+      "ability_id": 1808,
+      "postfix_lines": 1,
+      "ability_notes": [
+        {
+          "indent_level": 1,
+          "note": "Теперь предмет можно разобрать"
+        }
+      ]
+    },
+    {
+      "ability_id": 1107,
+      "ability_notes": [
+        {
+          "indent_level": 1,
+          "note": "Бонус ко всем атрибутам уменьшен с 7 до 6"
+        },
+        {
+          "indent_level": 1,
+          "note": "Бонус к восстановлению маны уменьшен с 2,5 до 2,25"
+        }
+      ]
+    }
+  ],
+  "heroes": [
+    {
+      "hero_id": 2,
+      "hero_notes": [
+        {
+          "indent_level": 1,
+          "note": "Прирост силы уменьшен с 2,8 до 2,7"
+        }
+      ],
+      "talent_notes": [
+        {
+          "indent_level": 1,
+          "note": "Талант 15 уровня: бонус к урону в секунду от Battle Hunger уменьшен с 10 до 8"
+        }
+      ]
+    },
+    {
+      "hero_id": 4,
+      "talent_notes": [
+        {
+          "indent_level": 1,
+          "note": "Талант 10 уровня: бонус к здоровью увеличен со 175 до 200"
+        },
+        {
+          "indent_level": 1,
+          "note": "Талант 20 уровня: бонус к ловкости уменьшен с 20 до 15"
+        }
+      ],
+      "abilities": [
+        {
+          "ability_id": 5015,
+          "ability_notes": [
+            {
+              "indent_level": 1,
+              "note": "Потеря максимального здоровья в секунду уменьшена с 1,4% до 1,2%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
