@@ -1,4 +1,4 @@
-# 🤖 Dota 2 RAG Agent — учебный проект
+# 🤖 Dota 2 RAG Agent
 
 Практический пет-проект: построение RAG-системы (Retrieval-Augmented Generation) для ответов на вопросы о Dota 2 — от простого семантического поиска до агента с маршрутизацией на LangGraph.
 
